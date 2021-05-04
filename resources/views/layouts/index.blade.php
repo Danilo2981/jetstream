@@ -7,9 +7,9 @@
     <title>Tailwind</title>
 
     {{-- Tailwind CSS --}}
-    <link rel="stylesheet" type="text/css" href="{{ mix('css/app.css') }}">
+    <link rel="stylesheet" href="{{ mix('css/app.css') }}">
 </head>
-<body>
+<body class="bg-body-pattern bg-scorll">
     @include('tailwind.header')
 </body>
 </html>
